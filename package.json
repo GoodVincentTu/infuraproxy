@@ -1,0 +1,22 @@
+{
+  "name": "infuraproxy",
+  "version": "1.0.0",
+  "description": "INFURA Proxy",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "elasticsearch": "^13.3.1",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "morgan": "^1.8.2",
+    "serve-favicon": "~2.3.0",
+    "superagent": "^3.6.0",
+    "web3": "^0.20.1"
+  }
+}
